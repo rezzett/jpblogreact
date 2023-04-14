@@ -1,0 +1,21 @@
+.pagination__wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.pagination__item {
+    padding: 10px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.pagination__item:hover {
+    color: darkred;
+    font-weight: bold;
+    text-shadow: 0 0 3px darkred;
+}
+
+.page__current {
+    font-weight: bold;
+    padding: 10px;
+}

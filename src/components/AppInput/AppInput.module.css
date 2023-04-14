@@ -1,0 +1,8 @@
+.appInput {
+    padding: 10px 15px;
+    margin: 5px 0;
+    width: 100%;
+    font-style: italic;
+    border-radius: 4px;
+    border: 1px solid #404040;
+}

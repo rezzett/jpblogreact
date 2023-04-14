@@ -1,0 +1,16 @@
+.error__container {
+    min-width: 250px;
+    text-align: center;
+}
+
+.error__title {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.error__content {
+    font-size: 180px;
+    color: transparent;
+
+    -webkit-text-stroke: 1px #404040;
+}

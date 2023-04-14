@@ -1,0 +1,43 @@
+.postItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0 0 5px #404040;
+    padding: 20px;
+    align-items: start;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.post__title {
+    margin-bottom: 20px;
+}
+
+.post__btn {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    transition: all .3s ease;
+}
+
+.post__btn:hover {
+    color: red;
+}
+
+.open__btn {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: all .5s ease;
+}
+
+.open__btn:hover {
+    color: #2fa42f;
+    text-shadow: 0 0 2px #07a90b;
+}

@@ -1,0 +1,29 @@
+.btn {
+    cursor: pointer;
+    outline: none;
+    background-color: #07a90b;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    transition: all .5s ease;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+
+.btn:hover {
+    color: #009e03;
+    background-color: #ffffff;
+    border: 2px solid #07a90b;
+}
+
+.btn:disabled {
+    background-color: #86a686!important;
+}
+
+.btn:disabled, .btn:hover {
+    background-color: #86a686!important;
+    color: #fff;
+    border-color: #fff;
+}
